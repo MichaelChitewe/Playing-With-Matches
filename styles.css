@@ -1,6 +1,60 @@
-div.number {
-  background-color:blue;
-  color:black;
-  margin:20px;
-  padding:20px;
+body {
+  background-color: rgb(131, 243, 246);
+}
+
+
+.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+.slide-left p {
+  animation: slide-left 10s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+div {
+
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  background-color: rgb(75, 212, 219);
+  margin: 1px;
+}
+
+.box{
+  border-radius: 25px;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  background-color: rgb(122, 145, 246);
+  margin: 1px;
+
+}
+.main {
+  margin-top: 10%;
+  align: center;
+}
+
+.main1, .main2, .main3 {
+  display: inline-block;
+  width: 150px;
+  font: 2em "Open Sans", sans-serif;
+  color: #000099;
+  border:solid none;
+}
+
+.highlight{
+  background-color: rgb(89, 243, 200);
 }

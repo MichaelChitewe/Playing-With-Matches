@@ -3,25 +3,41 @@
 <head>
 	<title>Playing-With-Matches</title>
 
-	<link rel="stylesheet" href="styles.css" style type="text/css"/>
+	<link rel="stylesheet" href="styles.css" style type="text/css">
 
 </head>
+ 	<!-- HTML goes here -->
 <body>
-	<!-- HTML goes here -->
-  <div class="number">
-  <h1> 3 </h1>
-	<p>Click the button to display a random number between 1 and 9.</p>
+<div class="main">
 
-	<button onclick="myFunction()">Try it</button>
+	<div class="main1">
+      <div class="numbers"></div>
+		  <div class="numbers"></div>
+		  <div class="numbers"></div>
+	</div>
 
-	<p id="demo"></p>
+    <div class="main2">
+		  <div class="numbers"></div>
+		  <div class="numbers"></div>
+		  <div class="numbers"></div>
+  </div>
 
-	<script type="text/javascript">
-		// JavaScript code goes here at the bottom
-		function myFunction() {
-    var x = Math.floor((Math.random() * 9) + 1);
-		document.getElementById("demo").innerHTML = x;
-}
-	</script>
-</body>
+	 <div class="main3">
+		  <div class="numbers"></div>
+		  <div class="numbers"></div>
+		  <div class="numbers"></div>
+
+  </div>
+
+<div class="box"></div>
+
+
+	<button id="button">Press</button>
+</div>
+
+
+
+	<script type="text/javascript" src="script.js"></script>
+  </body>
+
 </html>
