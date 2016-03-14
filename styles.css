@@ -2,27 +2,17 @@ body {
   background-color: rgb(131, 243, 246);
 }
 
+h2{
+  margin-top: 4%;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: solid none;
+  border-radius: 20px;
+  background-color: rgb(75, 212, 219);
+  color: rgb(45, 63, 157);
 
-.slide-left {
-  width:100%;
-  overflow:hidden;
 }
-.slide-left p {
-  animation: slide-left 10s;
-}
-
-@keyframes slide-left {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
 div {
 
   border-radius: 25px;
@@ -34,16 +24,17 @@ div {
 }
 
 .box{
-  border-radius: 25px;
-  padding: 20px;
+  border-radius: 20px;
+  padding: 1px;
   text-align: center;
   font-weight: bolder;
-  background-color: rgb(122, 145, 246);
+  background-color: rgb(35, 152, 252);
   margin: 1px;
+  color: rgb(45, 63, 157);
 
 }
 .main {
-  margin-top: 10%;
+  margin-top:5%;
   align: center;
 }
 
@@ -56,5 +47,6 @@ div {
 }
 
 .highlight{
-  background-color: rgb(89, 243, 200);
+
+  background-color: rgb(35, 152, 252);
 }
