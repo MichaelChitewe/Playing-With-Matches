@@ -4,29 +4,27 @@
 
  var numbers = document.querySelectorAll('.numbers');
 
- var messageDisplay = function(text) {
-   var message = document.getElementById("hippy").innerHTML = text;
+ // var messageDisplay = function(text) {
+ //   var message = document.getElementById("hippy").innerHTML = text;
  }
 
 
  function elements() {
 
-   var numbers = document.getElementsByClassName('numbers');
+   // what problem did the messages array solved?
    var messages = [];
 
    for (var i = 0; i < numbers.length; i++) {
      numbers[i].classList.remove('highlight');
-   }
-
-   for (var i = 0; i < numbers.length; i++) {
      numbers[i].innerHTML = getRandomInt(1, 9);
    }
 
    if (numbers[0].innerHTML === numbers[1].innerHTML) {
      numbers[0].classList.add("highlight");
      numbers[1].classList.add("highlight");
-     messages.push(numbers[0].innerHTML + " and " + numbers[1].innerHTML +
-       " first row down match ");
+     messge = message
+       //  messages.push(numbers[0].innerHTML + " and " + numbers[1].innerHTML +
+       //    " first row down match ");
    }
 
    if (numbers[1].innerHTML === numbers[2].innerHTML) {
