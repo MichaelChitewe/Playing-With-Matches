@@ -3,9 +3,8 @@
  }
 
  var numbers = document.querySelectorAll('.numbers');
-
- // var messageDisplay = function(text) {
- //   var message = document.getElementById("hippy").innerHTML = text;
+ var messageDisplay = function(text) {
+   var message = document.getElementById("hippy").innerHTML = text;
  }
 
 
@@ -22,9 +21,8 @@
    if (numbers[0].innerHTML === numbers[1].innerHTML) {
      numbers[0].classList.add("highlight");
      numbers[1].classList.add("highlight");
-     messge = message
-       //  messages.push(numbers[0].innerHTML + " and " + numbers[1].innerHTML +
-       //    " first row down match ");
+     messages.push(numbers[0].innerHTML + " and " + numbers[1].innerHTML +
+       " first row down match ");
    }
 
    if (numbers[1].innerHTML === numbers[2].innerHTML) {
